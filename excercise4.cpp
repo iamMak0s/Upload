@@ -1,15 +1,20 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main() {
 	
-	int X;
+	int ;
 	
 	cout << "Enter Value (seconds): ";
-	cin >> X;
+	cin >> S;
 	
-	cout << X << " seconds= " << X * 0.00001157 << " Days," << X * 0.00027778 << " Hours, " << X * 0.01666667 << " Minutes,";
+	D = S * 0.000011574074
+	d = D - 365
+	H = d * 24
 	
+	17.7777216
 	
+	cout << S << " seconds = " << trunc(D) << " Days," << trunc(H) << " Hours," <<
 }
